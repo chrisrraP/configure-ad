@@ -22,9 +22,9 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Creating a Resource Group with Server and Client
-- Step 2
-- Step 3
-- Step 4
+- Configuring TCP Proctols in Windows Firewall
+- Installing Active Directory and User Groups
+- Connecting Virtual Machine to Cloud Server and Adding Users
 
 <h2>Deployment and Configuration Steps</h2>
 
