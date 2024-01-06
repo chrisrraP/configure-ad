@@ -29,8 +29,8 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="![DC-1 Static Address](https://github.com/chrisrraP/configure-ad/assets/132538246/044c4912-cdc8-4ccd-97da-173a9cd76ead)
-" height="80%" width="80%" alt="DC Static Address"/>
+![DC-1 Static Address](https://github.com/chrisrraP/configure-ad/assets/132538246/c67e7dd1-961f-4026-9e89-e46a00e3ea1b)
+
 
 </p>
 <p>
