@@ -29,7 +29,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/chrisrraP/configure-ad/blob/main/DC-1%20Static%20Address.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 </p>
