@@ -55,7 +55,7 @@ I log into the domain server and enable ICMPv4 TCP Protocols on Windows Firewall
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/Change%20Client%20one%20DNS%20Server.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/chrisrraP/configure-ad/blob/main/Confirm%20Client%20Server%20Changed.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 I use the Microsoft Azure portal to change the DNS settings of the client machine to the server's private IP address. I ensure connectivity and then log back into the server to verify that my "client" computer is listed in the "computers" container of the Active Directory domain root.
