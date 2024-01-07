@@ -42,6 +42,11 @@ Created a group resource and virtual machines within Microsoft Azure. The domain
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 I log into the domain server and enable ICMPv4 TCP Protocols on Windows Firewall. Once connectivity is established between both machines, I install Active Directory and add a domain. The machine restarts by default and I log back in with the new domain I created and the pre-existing username. I create Organizational Units (OU) and a couple of users. I give one of the users administrator properties by adding them to "Domain Admins" group. 
 </p>
 <br />
