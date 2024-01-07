@@ -66,7 +66,7 @@ I use the Microsoft Azure portal to change the DNS settings of the client machin
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/Allow%20users%20server%20access.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/chrisrraP/configure-ad/blob/main/Generate%20Random%20Users.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Logged back into the client machine with the admin user login and allowed domain users access to remote desktop via system properties. I then log out and log into the domain as the admin user. Using powershell as an administrator allows me to run a script that generates random users to the OU within Active Directory.
