@@ -63,7 +63,7 @@ I use the Microsoft Azure portal to change the DNS settings of the client machin
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/chrisrraP/configure-ad/blob/main/Allow%20users%20server%20access.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
