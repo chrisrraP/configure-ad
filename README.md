@@ -58,7 +58,7 @@ I use the Microsoft Azure portal to change the DNS settings of the client machin
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Logged back into the client machine with the admin user login and allowed domain users access to remote desktop via system properties. I then log out and log into the domain as the admin user. Using powershell as an administrator allows me to run a script that generates random users to the Active Directory.
+Logged back into the client machine with the admin user login and allowed domain users access to remote desktop via system properties. I then log out and log into the domain as the admin user. Using powershell as an administrator allows me to run a script that generates random users to the OU within Active Directory.
 </p>
 <br />
 
@@ -66,6 +66,6 @@ Logged back into the client machine with the admin user login and allowed domain
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lastly, I pick a random user from the OU I created and log into the client machine. 
+Lastly, I pick a random user from the OU and log into the client machine. 
 </p>
 <br />
