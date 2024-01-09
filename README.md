@@ -34,7 +34,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 </p>
 <p>
-Within Azure, create virtual machines within Microsoft Azure. Select "Window Data server 2022" for the first operating system. You will also want to select "2 VCPUs". Meaning, two machines can be used in this session. The second VM will be "Windows 10".  The domain server will be named "DC-1" and the user will be named "Client". To ensure that the IP address of the server doesn't change throughout the process, select the "static" option in the network settings.
+Within Azure, create two virtual machines. Select "Window Data server 2022" for the first operating system. You will also want to select "2 VCPUs". Meaning, two machines can be used in this session. The second VM will be "Windows 10".  The domain server will be named "DC-1" and the user will be named "Client". To ensure that the IP address of the server doesn't change throughout the process, select the "static" option in the network settings.
 </p>
 <br />
 
