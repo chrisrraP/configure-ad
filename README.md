@@ -47,7 +47,7 @@ Within Azure, create two virtual machines. Select "Window Data server 2022" for 
 <p>
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/DC-1%20Add%20User%20Role.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-Log into the domain server, in the lower right box of the screen type in "Firewall ". Select "Windows Defender Firewall With Advanced Security". Click on the "Protocols" section (Pictured above). Right-click on ICMP Echo diagnostics and enable ICMPv4 TCP Protocols on Windows Firewall. Once connectivity is established between both machines, install Active Directory and add a domain. The machine restarts by default and log back in with the new domain create and the pre-existing username. Create Organizational Units (OU) and a couple of users. Give one of the users administrator properties by right-clicking on the user, selecting "properties", select "member" tab and add them to "Domain Admins" group. Click "check names" button after typing in "domain admins" to re-affirm the existence of the group name.
+Log into the domain server, in the lower right box of the screen type in "Firewall ". Select "Windows Defender Firewall With Advanced Security". Click on the "Protocols" section (Illustrated above). Right-click on ICMP Echo diagnostics and enable ICMPv4 TCP Protocols on Windows Firewall. Once connectivity is established between both machines, install Active Directory and add a domain. The machine restarts by default and log back in with the new domain create and the pre-existing username. Create Organizational Units (OU) and a couple of users. Give one of the users administrator properties by right-clicking on the user, selecting "properties", select "member" tab and add them to "Domain Admins" group. Click "check names" button after typing in "domain admins" to re-affirm the existence of the group name.
 </p>
 <br />
 
@@ -58,7 +58,7 @@ Log into the domain server, in the lower right box of the screen type in "Firewa
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/Confirm%20Client%20Server%20Changed.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Use the Microsoft Azure portal to change the DNS settings of the client machine to the server's private IP address. Ensure connectivity and then log back into the server to verify that my "client" computer is listed in the "computers" container of the Active Directory domain root.
+Use the Microsoft Azure portal to change the DNS settings of the client machine to the server's private IP address (Illustrated above). Ensure connectivity and then log back into the server to verify that my "client" computer is listed in the "computers" container of the Active Directory domain root.
 </p>
 <br />
 
