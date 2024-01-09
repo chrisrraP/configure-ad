@@ -34,7 +34,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 </p>
 <p>
-Created a group resource and virtual machines within Microsoft Azure. The domain server will be named "DC-1" and the user will be named "Client". To ensure that the IP address of the server doesn't change throughout the process, I select the "static" option in the network settings.
+Create a group resource and virtual machines within Microsoft Azure. The domain server will be named "DC-1" and the user will be named "Client". To ensure that the IP address of the server doesn't change throughout the process, select the "static" option in the network settings.
 </p>
 <br />
 
@@ -47,7 +47,7 @@ Created a group resource and virtual machines within Microsoft Azure. The domain
 <p>
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/DC-1%20Add%20User%20Role.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-Log into the domain server and right-click on ICMP Echo diagnostics and enable ICMPv4 TCP Protocols on Windows Firewall. Once connectivity is established between both machines, I install Active Directory and add a domain. The machine restarts by default and I log back in with the new domain I created and the pre-existing username. I create Organizational Units (OU) and a couple of users. I give one of the users administrator properties by adding them to "Domain Admins" group. 
+Log into the domain server and right-click on ICMP Echo diagnostics and enable ICMPv4 TCP Protocols on Windows Firewall. Once connectivity is established between both machines, install Active Directory and add a domain. The machine restarts by default and I log back in with the new domain create and the pre-existing username. Create Organizational Units (OU) and a couple of users. Give one of the users administrator properties by adding them to "Domain Admins" group. 
 </p>
 <br />
 
@@ -58,7 +58,7 @@ Log into the domain server and right-click on ICMP Echo diagnostics and enable I
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/Confirm%20Client%20Server%20Changed.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I use the Microsoft Azure portal to change the DNS settings of the client machine to the server's private IP address. I ensure connectivity and then log back into the server to verify that my "client" computer is listed in the "computers" container of the Active Directory domain root.
+Use the Microsoft Azure portal to change the DNS settings of the client machine to the server's private IP address. Ensure connectivity and then log back into the server to verify that my "client" computer is listed in the "computers" container of the Active Directory domain root.
 </p>
 <br />
 
@@ -69,7 +69,7 @@ I use the Microsoft Azure portal to change the DNS settings of the client machin
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/Generate%20Random%20Users.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Logged back into the client machine with the admin user login and allowed domain users access to remote desktop via system properties. I then log out and log into the domain as the admin user. Using powershell as an administrator allows me to run a script that generates random users to the OU within Active Directory.
+Logged back into the client machine with the admin user login and allowed domain users access to remote desktop via system properties. Log out and log into the domain as the admin user. Using powershell as an administrator allows you to run a script that generates random users to the OU within Active Directory. You can also manually create more users.
 </p>
 <br />
 
@@ -77,6 +77,6 @@ Logged back into the client machine with the admin user login and allowed domain
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/Login%20as%20new%20user%20to%20server.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lastly, I pick a random user from the OU and log into the client machine. 
+Lastly, pick a random user from the OU and log into the client machine. 
 </p>
 <br />
